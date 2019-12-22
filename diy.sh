@@ -8,7 +8,7 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 # 删除原主题包
-rm -rf package/lean/luci-theme-argon
+# rm -rf package/lean/luci-theme-argon
 # 添加新的包
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git https://github.com/sypopo/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
