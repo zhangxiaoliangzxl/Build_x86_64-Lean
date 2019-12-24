@@ -10,7 +10,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 # 删除原主题包
 # rm -rf package/lean/luci-theme-argon
 # 添加新的包
-git clone https://github.com/chihoutam/luci-app-ssr-plus-jo.git package/lean/luci-app-ssr-plus-jo
+git clone https://github.com/Leo-Jo/luci-app-ssr-plus-jo.git package/lean/luci-app-ssr-plus-jo
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/sypopo/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
 # git clone https://github.com/sypopo/luci-theme-argon-mc.git package/lean/luci-theme-argon-mc
