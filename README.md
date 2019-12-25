@@ -23,6 +23,10 @@ rm -rf package/lean/luci-app-verysync
 ./scripts/feeds install -a  
 然后 make menuconfig 选插件，选好后执行 ./scripts/diffconfig.sh > seed.config 复制一下这个seed.config的文本内容到项目根目录的.config文件中。  
 
+## Screenshot
+![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135809.png)
+![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135919.png)
+
 ## Acknowledgments
 
 - [Microsoft](https://www.microsoft.com)
