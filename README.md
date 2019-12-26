@@ -4,7 +4,7 @@
   
 - 二、Fork [this GitHub repository](https://github.com/sypopo/Actions-OpenWrt)
   
-- 三、生成`.config`文件：  
+- 三、本地环境生成`.config`文件方法：  
   
 首先`git clone https://github.com/coolsnowwolf/lede`  
   
