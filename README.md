@@ -5,6 +5,7 @@
 - `.config` 生成方法：  
 git clone https://github.com/coolsnowwolf/lede  
 添加 src-git lienol https://github.com/Lienol/openwrt-package 到 feeds.conf.default 文件  
+```bash
 ./scripts/feeds clean  
 ./scripts/feeds update -a  
 rm -rf feeds/lienol/package/v2ray  
@@ -21,6 +22,7 @@ rm -rf package/lean/luci-app-pptp-server
 rm -rf package/lean/luci-app-v2ray-server  
 rm -rf package/lean/luci-app-verysync  
 ./scripts/feeds install -a  
+```
 然后 make menuconfig 选插件，选好后执行 ./scripts/diffconfig.sh > seed.config 复制一下这个seed.config的文本内容到项目根目录的.config文件中。  
 
 ## Screenshot
