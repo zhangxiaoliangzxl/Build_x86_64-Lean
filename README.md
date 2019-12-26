@@ -31,7 +31,9 @@ rm -rf package/lean/luci-app-verysync
   
 - 四、触发 Actions 进行编译 
   
-在自己fork出来的项目里的网页里创建一个新文件(点击Create new file) ， 然后把前面提到的`seed.config`文件的内容粘贴进来，文件名写`.config`然后直接点提交。就会触发自动编译，点击Actions就能看到编译的状况。
+进入自己项目Actions页面，点击页面中的绿色按钮。
+  
+把前面提到的`seed.config`文件的内容复制粘贴到仓库根目录的`.config`文件中，然后直接点提交。这样就会触发自动编译，点击Actions就能看到编译的状况。
   
 - 五、下载固件  
   
