@@ -38,8 +38,8 @@ rm -rf package/lean/luci-app-verysync
 要下载固件的话，等他编译完（一般需要2小时），进项目的Actions页面，点页面左侧的Build OpenWrt查看编译详情，页面`Artifacts`有个`OpenWrt firmware`就是你要的固件，点击下载。
   
 ## Screenshot
-![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135809.png)
 ![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135919.png)
+![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135809.png)
 
 ## Acknowledgments
 
