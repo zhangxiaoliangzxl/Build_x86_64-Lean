@@ -1,9 +1,13 @@
 ## Usage
 
 - 注册 GitHub
+  
 - Fork [this GitHub repository](https://github.com/sypopo/Actions-OpenWrt)
+  
 - `.config` 生成方法：  
+  
 git clone https://github.com/coolsnowwolf/lede  
+  
 添加 src-git lienol https://github.com/Lienol/openwrt-package 到 feeds.conf.default 文件  
 ```bash
 ./scripts/feeds clean  
