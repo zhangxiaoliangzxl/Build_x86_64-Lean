@@ -27,8 +27,12 @@ rm -rf package/lean/luci-app-v2ray-server
 rm -rf package/lean/luci-app-verysync  
 ./scripts/feeds install -a  
 ```
-最后输入 `make menuconfig` 命令选插件，选好插件后执行 `./scripts/diffconfig.sh > seed.config` 复制一下这个seed.config的文本内容到项目根目录的`.config`文件中。  
-
+最后输入 `make menuconfig` 命令选插件，选好插件后执行 `./scripts/diffconfig.sh > seed.config` 根目录中会生成一个`seed.config`文件。
+  
+- 触发 Actions  
+  
+在自己fork出来的项目里的网页里创建一个新文件(点击Create new file) ， 然后把前面提到的`seed.config`文件的内容粘贴进来，文件名写`.config`然后直接点提交。就会触发自动编译，点击Actions就能看到编译的状况
+  
 ## Screenshot
 ![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135809.png)
 ![image](https://github.com/sypopo/Actions-OpenWrt/blob/master/20191225135919.png)
