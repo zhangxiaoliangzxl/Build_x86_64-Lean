@@ -33,7 +33,7 @@ rm -rf package/lean/luci-app-verysync
   
 进入自己项目Actions页面，点击页面中的绿色按钮。
   
-把前面提到的`seed.config`文件的内容复制粘贴到仓库根目录的`.config`文件中，然后直接点提交。这样就会触发自动编译，点击Actions就能看到编译的状况。
+把前面提到的`seed.config`文件的内容复制粘贴到项目根目录的`.config`文件中，然后直接点提交。这样就会触发自动编译，点击Actions就能看到编译的状况。
   
 - 五、下载固件  
   
